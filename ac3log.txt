@@ -1,0 +1,46 @@
+2020-10-09T23:04:52.338004+00:00 app[api]: Release v1 created by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:04:52.338004+00:00 app[api]: Initial release by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:04:52.919936+00:00 app[api]: Release v2 created by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:04:52.919936+00:00 app[api]: Enable Logplex by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:08:52.000000+00:00 app[api]: Build started by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:09:17.286646+00:00 app[api]: Deploy 3f2ff11e by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:09:17.286646+00:00 app[api]: Release v3 created by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:09:17.297101+00:00 app[api]: Scaled to web@1:Free by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:09:21.162051+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-09T23:09:24.631691+00:00 heroku[web.1]: Process exited with status 0
+2020-10-09T23:09:24.682445+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T23:09:24.685459+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T23:09:26.000000+00:00 app[api]: Build succeeded
+2020-10-09T23:09:28.018141+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-09T23:09:30.509080+00:00 heroku[web.1]: Process exited with status 0
+2020-10-09T23:09:30.547086+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T23:27:08.868651+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=si2bac3vinicius.herokuapp.com request_id=107effba-8c97-4892-80f6-a7a3198d2cfb fwd="191.136.108.230" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:27:09.712486+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=si2bac3vinicius.herokuapp.com request_id=38b9a05b-5846-4556-9836-c42d839b2147 fwd="191.136.108.230" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:32:57.000000+00:00 app[api]: Build started by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:33:21.108255+00:00 app[api]: Deploy 4e0e45c4 by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:33:21.108255+00:00 app[api]: Release v4 created by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:33:21.281300+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T23:33:25.231385+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-09T23:33:27.678182+00:00 app[web.1]: python: can't open file 't8.py': [Errno 2] No such file or directory
+2020-10-09T23:33:27.754149+00:00 heroku[web.1]: Process exited with status 2
+2020-10-09T23:33:27.834292+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T23:33:27.838816+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T23:33:30.000000+00:00 app[api]: Build succeeded
+2020-10-09T23:33:30.766892+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-09T23:33:32.447566+00:00 app[web.1]: python: can't open file 't8.py': [Errno 2] No such file or directory
+2020-10-09T23:33:32.496312+00:00 heroku[web.1]: Process exited with status 2
+2020-10-09T23:33:32.528178+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T23:35:00.315506+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=si2bac3vinicius.herokuapp.com request_id=83b184c5-bacf-4018-bd4c-5dc961ff9448 fwd="191.136.108.230" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:35:01.049776+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=si2bac3vinicius.herokuapp.com request_id=d808e4a9-63fb-4c93-b878-64b30fde667b fwd="191.136.108.230" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:39:37.000000+00:00 app[api]: Build started by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:40:00.337496+00:00 app[api]: Deploy 31195b4c by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:40:00.337496+00:00 app[api]: Release v5 created by user vinicius.barbosa@aluno.faculdadeimpacta.com.br
+2020-10-09T23:40:00.802905+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T23:40:04.362723+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-09T23:40:07.143232+00:00 app[web.1]: * Running on http://0.0.0.0:30655/ (Press CTRL+C to quit)
+2020-10-09T23:40:07.535217+00:00 heroku[web.1]: State changed from starting to up
+2020-10-09T23:40:09.000000+00:00 app[api]: Build succeeded
+2020-10-09T23:40:23.112532+00:00 app[web.1]: 10.9.213.124 - - [09/Oct/2020 23:40:23] "GET / HTTP/1.1" 200 -
+2020-10-09T23:40:23.116520+00:00 heroku[router]: at=info method=GET path="/" host=si2bac3vinicius.herokuapp.com request_id=bb491e07-670c-42e0-83da-d58a8612a770 fwd="191.136.108.230" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
+2020-10-09T23:40:23.675058+00:00 app[web.1]: 10.9.213.124 - - [09/Oct/2020 23:40:23] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-09T23:40:23.677040+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=si2bac3vinicius.herokuapp.com request_id=278dd281-96c6-44b1-a396-b601f10f875c fwd="191.136.108.230" dyno=web.1 connect=1ms service=42ms status=404 bytes=380 protocol=https
